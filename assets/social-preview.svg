@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="api-filter-sort-doctor social preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect x="92" y="92" width="1096" height="456" rx="36" fill="#0f172a" stroke="#67e8f9" stroke-width="4" opacity="0.94"/>
+  <text x="140" y="205" fill="#e0f2fe" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="54" font-weight="700">api-filter-sort-doctor</text>
+  <text x="140" y="285" fill="#a5f3fc" font-family="ui-sans-serif, system-ui" font-size="34">Audit API filtering + sorting docs before users get confused.</text>
+  <text x="140" y="380" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="30">filters • sort defaults • tie breakers • pagination stability</text>
+  <rect x="140" y="430" width="470" height="62" rx="14" fill="#22d3ee"/>
+  <text x="165" y="471" fill="#06202a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28" font-weight="700">npx api-filter-sort-doctor</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "name": "api-filter-sort-doctor",
+  "version": "0.1.0",
+  "description": "CLI checker for API filtering and sorting documentation quality.",
+  "type": "module",
+  "bin": {
+    "api-filter-sort-doctor": "bin/api-filter-sort-doctor.js"
+  },
+  "scripts": {
+    "check": "node --test && node bin/api-filter-sort-doctor.js examples/good.md --min-score 85 && node bin/api-filter-sort-doctor.js examples/bad.md --min-score 90 --expect-fail",
+    "test": "node --test"
+  },
+  "keywords": [
+    "api",
+    "docs",
+    "filtering",
+    "sorting",
+    "developer-experience",
+    "cli"
+  ],
+  "author": "funnyhcat-dotcom",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/",
+    "docs/",
+    "assets/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funnyhcat-dotcom/api-filter-sort-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/funnyhcat-dotcom/api-filter-sort-doctor/issues"
+  },
+  "homepage": "https://github.com/funnyhcat-dotcom/api-filter-sort-doctor#readme"
+}
