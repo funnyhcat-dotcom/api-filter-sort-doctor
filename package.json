@@ -1,6 +1,6 @@
 {
   "name": "api-filter-sort-doctor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI checker for API filtering and sorting documentation quality.",
   "type": "module",
   "bin": {
